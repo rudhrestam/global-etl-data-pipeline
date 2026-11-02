@@ -1,0 +1,6 @@
+row_id,date,store_id,product,quantity,amount
+1,2026-01-01,STORE-101,coffee-beans-1kg,4,59.96
+2,2026-01-01,STORE-101,paper-cups-500ct,2,37.50
+3,2026-01-01,STORE-102,oat-milk-1l,11,43.89
+4,2026-01-01,STORE-103,coffee-beans-1kg,3,44.97
+5,2026-01-01,STORE-102,paper-cups-500ct,1,18.75
