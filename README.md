@@ -1,5 +1,7 @@
 # Global ETL Data Pipeline (Demo)
 
+![CI](https://github.com/rudhrestam/global-etl-data-pipeline/actions/workflows/ci.yml/badge.svg) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A batch ETL pipeline with the part most demos skip: a **data-quality layer that reverts bad data instead of loading it**. Files arrive in mixed formats, every row is validated, clean files load into a SQLite warehouse — and if a file contains bad rows, none of it loads.
 
 > This is a representative demo of patterns used in production systems, built with sample files and original code. It contains no employer code, data, or internal details. All sample data is fictional.
@@ -48,7 +50,7 @@ Production versions of this pattern run on a fixed nightly window, and three ide
 
 ## Tech stack
 
-Python · SQLite · CSV/JSON · optional Apache Airflow DAG
+Python 3.10+ · SQLite · CSV/JSON · optional Apache Airflow DAG
 
 ## What it demonstrates
 
